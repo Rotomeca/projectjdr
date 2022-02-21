@@ -1,0 +1,4 @@
+﻿.rw-dark-mode button.rw:focus,
+.rw-dark-mode .rw-button:focus {
+  box-shadow: 0 0 0px 4px #ffffff26;
+}

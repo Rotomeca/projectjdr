@@ -1,0 +1,42 @@
+﻿@media (max-width: 575px) {
+  /*watch*/
+  .container,
+  rw-container {
+    max-width: 100%
+  }
+}
+
+@media (min-width: 576px) {
+  /*phone*/
+  .container,
+  rw-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  /*small*/
+  .container,
+  rw-container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  /*normal*/
+  .container,
+  rw-container {
+    max-width: 720px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  /*LARGE*/
+  .container,
+  rw-container {
+    max-width: 1140px;
+  }
+}
+
+
