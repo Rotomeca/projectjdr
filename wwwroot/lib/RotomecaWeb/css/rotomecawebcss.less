@@ -1,0 +1,264 @@
+﻿@import "rotomecaweb-variables-responsive";
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* - Disposition - */
+.horizontal,
+rw-horizontal,
+.vertical,
+rw-vertical,
+button-group,
+.button-group,
+button-group-vertical {
+    display: flex;
+}
+
+.vertical,
+rw-vertical,
+button-group-vertical {
+    flex-direction: column;
+}
+
+.horizontal > .col,
+rw-horizontal > rw-col,
+.vertical > .row,
+rw-vertical > rw-row {
+    flex: auto;
+}
+
+rw-container,
+rw-vertical > rw-row,
+rw-horizontal > rw-col {
+    display: block;
+}
+
+rw-container,
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    @media (max-width: @too-small) {
+        max-width: 100%
+    }
+
+    @media (min-width: @phone) {
+        max-width: 540px;
+    }
+
+    @media (min-width: @small) {
+        max-width: 600px;
+    }
+
+    @media (min-width: @normal) {
+        max-width: 720px;
+    }
+
+    @media (min-width: @large) {
+        max-width: 1140px;
+    }
+}
+
+rw-simple-container,
+rw-container.simple,
+.container.simple {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+rw-float-right,
+.float-right {
+    float: right;
+}
+
+rw-float-left,
+.float-left {
+    float: left;
+}
+
+/* - Navigation - */
+
+nav.rw {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* - Borders - */
+.border-bottom {
+    border-bottom: 1px solid;
+}
+
+/* - Boutons - */
+
+button.rw,
+.rw-button {
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: thin;
+    transition: all 0.2s;
+    padding: 5px;
+
+    &.block {
+        width: 100%;
+    }
+
+    &.loading-bar {
+        animation-duration: 1s;
+        animation-name: progress;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-out;
+
+        &.primary {
+            animation-name: progress-primary;
+        }
+
+        &.secondary {
+            animation-name: progress-secondary;
+        }
+
+        &.success {
+            animation-name: progress-success;
+        }
+
+        &.warning {
+            animation-name: progress-warning;
+        }
+
+        &.danger {
+            animation-name: progress-danger;
+        }
+    }
+
+    &.disabled, &:disabled {
+        pointer-events: none;
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0px 4px;
+    }
+
+    &.loading::after {
+        content: "";
+        margin-left: 1rem;
+        animation-duration: 1s;
+        animation-name: loading;
+        animation-iteration-count: infinite;
+        min-width: 15px;
+        min-height: 15px;
+        display: inline-block;
+        margin-bottom: -2px;
+    }
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+button-group.vertical .rw-button:first-child,
+button-group.vertical button.rw:first-child,
+.button-group.vertical .rw-button:first-child,
+.button-group.vertical button.rw:first-child,
+rw-vertical.button-group .rw-button:first-child,
+rw-vertical.button-group button.rw:first-child,
+button-group-vertical .rw-button:first-child,
+button-group-vertical button.rw:first-child {
+    border-radius: 1rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+button-group button.rw:first-child,
+button-group .rw-button:first-child,
+.button-group button.rw:first-child,
+.button-group .rw-button:first-child {
+    border-radius: 1rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+button-group button.rw,
+button-group .rw-button,
+.button-group button.rw,
+.button-group .rw-button,
+button-group-vertical button.rw {
+    border-radius: 0;
+}
+
+button-group.vertical .rw-button:last-child,
+button-group.vertical button.rw:last-child,
+.button-group.vertical .rw-button:last-child,
+.button-group.vertical button.rw:last-child,
+rw-vertical.button-group .rw-button:last-child,
+rw-vertical.button-group button.rw:last-child,
+button-group-vertical .rw-button:last-child,
+button-group-vertical button.rw:last-child {
+    border-radius: 0rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+button-group button.rw:last-child,
+button-group .rw-button:last-child,
+.button-group button.rw:last-child,
+.button-group .rw-button:last-child {
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* - Text - */
+
+rw-center,
+.center {
+    display: block;
+    text-align: center;
+}
+
+rw-left,
+.left {
+    display: block;
+    text-align: left;
+}
+
+rw-right,
+.right {
+    display: block;
+    text-align: right;
+}
+
+rw-justify,
+.justify {
+    display: block;
+    text-align: justify;
+}
+
+.overflow {
+    overflow: auto;
+
+    &.x {
+        overflow-x: auto;
+        overflow-y: initial;
+    }
+
+    &.y {
+        overflow-y: auto;
+        overflow-x: initial;
+    }
+
+    &.x.y {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
