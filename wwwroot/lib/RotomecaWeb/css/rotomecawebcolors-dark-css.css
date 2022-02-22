@@ -1,4 +1,27 @@
-﻿.rw-dark-mode button.rw:focus,
+﻿/*@color-primary: #b5e0ff;
+@color-primary-hover: #73c2fb;
+@color-primary-active: #0094ff;
+@color-primary-focus: #0095ff26;
+@color-secondary: transparent;
+@color-secondary-border: #00a6f5;
+@color-secondary-hover: @color-primary-hover;
+@color-secondary-active: @color-primary-active;
+@color-secondary-focus: @color-primary-focus;
+@color-success: #c0ffb5;
+@color-success-hover: #99ffb4;
+@color-success-active: #26ff00;
+@color-success-focus: #33ff0026;
+@color-warning: #fff2b3;
+@color-warning-hover: #ffd255;
+@color-warning-active: #ffb100;
+@color-warning-focus: #ffa50038;
+@color-danger: #ffb5b5;
+@color-danger-hover: #ff5d5d;
+@color-danger-active: #ab0808;
+@color-danger-focus: #ff000026;*/
+/*@color-base-loading: #00000073;
+@color-border-base: #e5e5e5;*/
+.rw-dark-mode button .rw:focus,
 .rw-dark-mode .rw-button:focus {
   box-shadow: 0 0 0px 4px #ffffff26;
 }
