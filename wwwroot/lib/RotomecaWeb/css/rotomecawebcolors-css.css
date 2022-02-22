@@ -1,0 +1,116 @@
+﻿button.rw.primary,
+.rw-button.primary {
+  background-color: #b5e0ff;
+  border-color: #b5e0ff;
+}
+
+button.rw.secondary,
+.rw-button.secondary {
+  background-color: transparent;
+  border-color: #00a6f5;
+}
+
+button.rw.success,
+.rw-button.success {
+  background-color: #c0ffb5;
+  border-color: #c0ffb5;
+}
+
+button.rw.warning,
+.rw-button.warning {
+  background-color: #fff2b3;
+  border-color: #fff2b3;
+}
+
+button.rw.danger,
+.rw-button.danger {
+  background-color: #ffb5b5;
+  border-color: #ffb5b5;
+}
+
+button.rw.primary:hover,
+.rw-button.primary:hover,
+button.rw.secondary:hover,
+.rw-button.secondary:hover {
+  background-color: #73c2fb;
+  border-color: #73c2fb;
+}
+
+button.rw.success:hover,
+.rw-button.success:hover {
+  background-color: #99ffb4;
+  border-color: #99ffb4;
+}
+
+button.rw.warning:hover,
+.rw-button.warning:hover {
+  background-color: #ffd255;
+  border-color: #ffd255;
+}
+
+button.rw.danger:hover,
+.rw-button.danger:hover {
+  background-color: #ff5d5d;
+  border-color: #ff5d5d;
+}
+
+button.rw.primary:active,
+.rw-button.primary:active,
+button.rw.secondary:active,
+.rw-button.secondary:active {
+  background-color: #0094ff;
+  border-color: #0094ff;
+}
+
+button.rw.success:active,
+.rw-button.success:active {
+  background-color: #26ff00;
+  border-color: #26ff00;
+}
+
+button.rw.warning:active,
+.rw-button.warning:active {
+  background-color: #ffb100;
+  border-color: #ffb100;
+}
+
+button.rw.danger:active,
+.rw-button.danger:active {
+  background-color: #ab0808;
+  border-color: #ab0808;
+  color:white;
+}
+
+
+button.rw:focus,
+.rw-button:focus {
+  box-shadow: 0 0 0px 4px #00000026;
+}
+
+button.rw.primary:focus,
+.rw-button.primary:focus,
+button.rw.secondary:focus,
+.rw-button.secondary:focus {
+  box-shadow: 0 0 0px 4px #0095ff26;
+}
+
+button.rw.success:focus,
+.rw-button.success:focus {
+  box-shadow: 0 0 0px 4px #33ff0026;
+}
+
+button.rw.warning:focus,
+.rw-button.warning:focus {
+  box-shadow: 0 0 0px 4px #ffa50038;
+}
+
+button.rw.danger:focus,
+.rw-button.danger:focus {
+  box-shadow: 0 0 0px 4px #ff000026;
+}
+
+button.rw.loading::after,
+.rw-button.loading::after {
+  background-color: #00000073;
+}
+
