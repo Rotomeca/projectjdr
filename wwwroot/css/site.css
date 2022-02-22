@@ -1,6 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/*Import de Bulma CSS (c'est simple, ça évite de se compliquer, et c'est gratuit)*/
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
