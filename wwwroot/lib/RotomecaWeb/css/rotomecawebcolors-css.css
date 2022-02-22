@@ -1,4 +1,8 @@
-﻿button.rw:focus,
+﻿body {
+  color: #212529;
+  background-color: #fff;
+}
+button.rw:focus,
 .rw-button:focus {
   box-shadow: 0 0 0px 4px #00000026;
 }

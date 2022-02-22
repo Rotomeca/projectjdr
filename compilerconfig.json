@@ -2,5 +2,25 @@
   {
     "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-css.css",
     "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-css.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-dark-css.css",
+    "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-dark-css.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-js.css",
+    "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcolors-js.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcss.css",
+    "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecawebcss.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecaweb-css-animations-colors.css",
+    "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecaweb-css-animations-colors.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/RotomecaWeb/css/rotomecaweb-css-responsive.css",
+    "inputFile": "wwwroot/lib/RotomecaWeb/css/rotomecaweb-css-responsive.less"
   }
 ]
