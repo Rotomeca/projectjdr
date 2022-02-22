@@ -46,6 +46,36 @@ rw-container,
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position:relative;
+}
+
+rw-simple-container,
+rw-container.simple,
+.container.simple {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+rw-float-right,
+.float-right {
+    float: right;
+}
+
+rw-float-left,
+.float-left {
+    float: left;
+}
+
+/* - Navigation - */
+
+nav.rw{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* - Borders - */
+.border-bottom {
+    border-bottom: 1px solid;
 }
 
 /* - Boutons - */
@@ -59,17 +89,25 @@ button.rw,
   padding:5px;
 }
 
+button.rw.disabled,
+.rw-button.disabled,
+button.rw:disabled,
+.rw-button:disabled,
+.disabled {
+    pointer-events: none;
+}
+
 button.rw.loading::after,
 .rw-button.loading::after {
-  content: "";
-  margin-left: 1rem;
-  animation-duration: 1s;
-  animation-name: loading;
-  animation-iteration-count: infinite;
-  min-width: 15px;
-  min-height: 15px;
-  display: inline-block;
-  margin-bottom: -2px;
+    content: "";
+    margin-left: 1rem;
+    animation-duration: 1s;
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    min-width: 15px;
+    min-height: 15px;
+    display: inline-block;
+    margin-bottom: -2px;
 }
 
 button.rw:focus,
@@ -170,3 +208,49 @@ button-group .rw-button:last-child,
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
+/* - Text - */
+
+rw-center,
+.center {
+    display:block;
+    text-align:center;
+}
+
+rw-left,
+.left {
+    display: block;
+    text-align: left;
+}
+
+rw-right,
+.right {
+    display: block;
+    text-align: right;
+}
+
+rw-justify,
+.justify {
+    display: block;
+    text-align: justify;
+}
+
+.overflow {
+    overflow:auto;
+}
+
+.overflow.x{
+    overflow-x:auto;
+    overflow-y:initial;
+}
+
+.overflow.y {
+    overflow-y: auto;
+    overflow-x: initial;
+}
+
+.overflow.x.y {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
