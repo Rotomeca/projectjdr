@@ -1,24 +1,23 @@
 ﻿Plan projet JDR
-(parce que ton cahier des charges en odt il me les brise à s'ouvrir dans Word c'est nul c'est moche)
-
-Faire un site (yey)
 
 CSS : Less
-Framework CSS : Môssieu veut créer son truc, perso j'aimerais utiliser bulma
-Techno : ASP Net, MVC
+Framework CSS : RotomecaWeb
+Framework JS : RotomecaWeb
+Techno : ASP Net, MVC, RotomecaWebC#
 
-Objectif : Tu résumes le projet
+Objectif : Faire un site de gestion et création de fiches de personnage
 
 Tâches : 
 - Se mettre d'accord sur les technos que tu veux utiliser
 - Faire un plan et des diagrammes de ton site/appli (bonne appli pour les diagrammes, Whimsical : https://whimsical.com)
 - Faire une maquette (Whimsical aussi), une carte d'idée si tu veux (whimsical)
+- Boire du coca
 - Whimsical
 - Whimsical aussi
 - S'appeler de temps en temps pour discuter sur le projet
 - Se faire des kebabs c'est fun :sunglasses:
 - Jouer à Phasmo :boo_niga: !!
+- Jouer à SMASH !
 - https://youtu.be/o-YBDTqX_ZU
-
 
 Voilà, aller, au boulot ! Plus de théorie, un peu moins de pratique !
