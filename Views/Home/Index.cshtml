@@ -2,6 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
 @*<div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
@@ -65,43 +67,63 @@
 @*Même chose mais en bulma*@
 
 <rw-horizontal>
+<div>
+    <h1 class="title is-3">Fait avec Bulma CSS</h1>
+</div>
+</rw-horizontal>
+
+
+<rw-horizontal>
   <rw-col>
-    <button class="rw primary block">Primary</button>
+    <button class="button is-rounded is-info">Primary</button>
   </rw-col>
   <rw-col>
-    <button class="rw secondary block">Secondary</button>
+    <button class="button is-rounded is-white">Secondary</button>
   </rw-col>
   <rw-col>
-    <button class="rw success block">Success</button>
+    <button class="button is-rounded is-success">Success</button>
   </rw-col>
   <rw-col>
-    <button class="rw warning block">Warning</button>
+    <button class="button is-rounded is-warning">Warning</button>
   </rw-col>
   <rw-col>
-    <button class="rw danger block">Danger</button>
+    <button class="button is-rounded is-danger">Danger</button>
   </rw-col>
-  <rw-col>
-    <button class="rw disabled block" disabled>Disabled</button>
-  </rw-col>
-  <rw-col>
+
+    <rw-col>
     <button-group-vertical>
-      <button class="rw loading">loading</button>
-      <button class="rw loading primary">loading</button>
-      <button class="rw loading secondary">loading</button>
-      <button class="rw loading success">loading</button>
-      <button class="rw loading warning">loading</button>
-      <button class="rw loading danger">loading</button>
+      <button class="button is-rounded is-disabled" disabled>disabled</button>
+      <button class="button is-white" disabled>disabled</button>
+      <button class="button is-info" disabled>disabled</button>
+      <button class="button is-success" disabled>disabled</button>
+      <button class="button is-warning" disabled>disabled</button>
+      <button class="button is-rounded is-danger" disabled>disabled</button>
     </button-group-vertical>
   </rw-col>
   <rw-col>
     <button-group-vertical>
-      <button class="rw loading-bar danger">Progress</button>
-      <button class="rw loading-bar primary">Progress</button>
-      <button class="rw loading-bar secondary">Progress</button>
-      <button class="rw loading-bar success">Progress</button>
-      <button class="rw loading-bar warning">Progress</button>
-      <button class="rw loading-bar danger">Progress</button>
+      <button class="button is-grey is-loading is-rounded">loading</button>
+      <button class="button is-white is-loading">loading</button>
+      <button class="button is-info is-loading">loading</button>
+      <button class="button is-success is-loading">loading</button>
+      <button class="button is-warning is-loading">loading</button>
+      <button class="button is-danger is-loading is-rounded">loading</button>
+    </button-group-vertical>
+  </rw-col>
+  <rw-col>
+    <button-group-vertical>
+      <progress class="is-grey is-medium progress is-rounded" max="100">Progress</progress>
+      <progress class="is-white is-medium progress" max="100">Progress</progress>
+      <progress class="is-info is-medium progress" max="100">Progress</progress>
+      <progress class="is-success is-medium progress" max="100">Progress</progress>
+      <progress class="is-warning is-medium progress" max="100">Progress</progress>
+      <progress class="is-danger is-medium progress is-rounded" max="100">Progress</progress>
     </button-group-vertical>
   </rw-col>
 
 </rw-horizontal>
+
+<div>
+    <rw-float-left>Yolo</rw-float-left>
+    <rw-float-right>Swag</rw-float-right>
+</div>
